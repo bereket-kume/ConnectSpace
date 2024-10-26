@@ -56,7 +56,7 @@ export class AuthService {
     const access_token = this.generateToken(user)
 
     return {
-      access_token,
+      access_token: access_token.access_token,
       role: user.role
     };
   }
