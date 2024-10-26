@@ -38,4 +38,3 @@ export class AuthController {
         return  this.authService.whoami(user.sub)
     }
 }
-
